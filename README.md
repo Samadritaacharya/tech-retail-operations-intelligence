@@ -2,7 +2,7 @@
 
 **An e-commerce operations intelligence dashboard** for order and fulfillment analytics, support trends, return/refund insights, inventory risk scoring, campaign impact analysis and an automatically generated PMO action plan.
 
-> 🔗 **Live demo:** _add your Streamlit Cloud link here after deployment_
+> 🔗 **Live demo:** [Open the Tech Retail Operations Intelligence app](https://tech-retail-operations-intelligence.streamlit.app/)
 
 ---
 
@@ -22,6 +22,14 @@ This project simulates a European fashion e-commerce operation using synthetic d
 - campaign impact analysis
 - PMO action plan with problem, business impact, owner, priority and deadline
 - Markdown and CSV exports
+
+## Live demo workflow
+
+1. Open the live app.
+2. Select a retail scenario, such as **Summer sale pressure**, **High returns focus** or **Inventory risk focus**.
+3. Adjust order volume, history window and simulation seed.
+4. Click **Run retail simulation**.
+5. Walk through fulfillment, support, returns, inventory, campaign impact and the PMO action plan.
 
 ## Dashboard pages
 
@@ -61,16 +69,6 @@ Run tests:
 
 ```bash
 pytest -v
-```
-
-## Deploy to Streamlit Cloud
-
-Use:
-
-```text
-Repository: Samadritaacharya/tech-retail-operations-intelligence
-Branch: main
-Main file path: app.py
 ```
 
 ## Why this project is relevant to my target roles
